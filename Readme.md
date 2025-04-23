@@ -24,11 +24,10 @@ This guide helps create the required **Client ID** and **Client Secret** in **Go
  ### Step 2: Enable Required Services (APIs)
  
 1. Go to: [https://console.cloud.google.com/apis/library](https://console.cloud.google.com/apis/library)
-2. From the search box select and **enable these three services** one by one:
+2. From the search box select below services and enable them respectively:
    - **Cloud Monitoring API**
    - **Cloud Logging API**
    - **IAM API**
-3. For each one, click on it, then click the blue **"Enable"** button.
  
 ### Step 3: Create OAuth 2.0 Credentials
  
@@ -38,6 +37,7 @@ This guide helps create the required **Client ID** and **Client Secret** in **Go
 4. Give it a name: `Sentinel OAuth`
 5. Scroll to **Authorized redirect URIs** and paste this link:"https://portal.azure.com/TokenAuthorize/ExtensionName/Microsoft_Azure_Security_Insights"
 6. Click **"Create"**
+   
 ### Step 4: Save the Credentials
  
 After creation, you’ll see:
@@ -48,8 +48,8 @@ After creation, you’ll see:
  
 You can also click **"Download JSON"** to save them in a file.
  
-## Step 5: Use These in Microsoft Sentinel
- 
+### Step 5: Use These in Microsoft Sentinel
+
 When connecting Google Cloud Monitoring in Microsoft Sentinel:
 - Paste the **Client ID** and **Client Secret** you just created.
 - This will allow Sentinel to access the logs securely.
