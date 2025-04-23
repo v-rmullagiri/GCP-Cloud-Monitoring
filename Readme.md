@@ -47,7 +47,7 @@ After creation, you’ll see:
  
 You can also click **"Download JSON"** to save them in a file.
  
-### Step 5: Use These in Microsoft Sentinel
+### Step 5: Microsoft Sentinel
 
 When connecting Google Cloud Monitoring in Microsoft Sentinel:
 - Paste the **Client ID** and **Client Secret** you just created.
