@@ -2,7 +2,7 @@
  
 This guide helps create the required **Client ID** and **Client Secret** in **Google Cloud Platform (GCP)** so logs can be securely sent to **Microsoft Sentinel**.
  
----
+
  
 ##  Prerequisites
  
@@ -10,7 +10,7 @@ This guide helps create the required **Client ID** and **Client Secret** in **Go
 - Access to your organization's **Google Cloud Project**
 - Access to **Google Cloud Console** at [https://console.cloud.google.com/](https://console.cloud.google.com/)
  
----
+
  
  
 ##  Step-by-Step Instructions
