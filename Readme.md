@@ -5,10 +5,9 @@ This guide helps create the required **Client ID** and **Client Secret** in **Go
 
  
 ##  Prerequisites
- 
-- A **Google account**
-- Access to your organization's **Google Cloud Project**
+
 - Access to **Google Cloud Console** at [https://console.cloud.google.com/](https://console.cloud.google.com/)
+- Access to your organization's **Google Cloud Project**
  
 
  
