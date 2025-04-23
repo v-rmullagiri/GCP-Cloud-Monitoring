@@ -12,17 +12,8 @@ This guide helps create the required **Client ID** and **Client Secret** in **Go
  
 ---
  
-##  Why Are We Doing This?
  
-To allow Microsoft Sentinel (a security system) to access logs from your Google Cloud account, we need to give it **secure permission** using a method called **OAuth 2.0**.
- 
-This requires:
-- A **Client ID**
-- A **Client Secret**
- 
----
- 
-## 🪜 Step-by-Step Instructions
+##  Step-by-Step Instructions
  
 ### Step 1: Log In to Google Cloud Console
  
@@ -43,19 +34,7 @@ This requires:
  
 ---
  
-### Step 3: Set Up the Consent Screen (Only once)
- 
-1. Go to: [https://console.cloud.google.com/apis/credentials/consent](https://console.cloud.google.com/apis/credentials/consent)
-2. Select **"External"**, then click **"Create"**
-3. Fill in:
-   - **App Name**: Sentinel Connector
-   - **User Support Email**: your email
-   - **Developer Contact Info**: your email again
-4. Click **"Save and Continue"** until it’s done (you don’t need to fill everything)
- 
----
- 
-### Step 4: Create OAuth 2.0 Credentials
+### Step 3: Create OAuth 2.0 Credentials
  
 1. Go to: [https://console.cloud.google.com/apis/credentials](https://console.cloud.google.com/apis/credentials)
 2. Click **"Create Credentials"** → choose **"OAuth client ID"**
@@ -66,7 +45,7 @@ This requires:
  
 ---
  
-### Step 5: Save the Credentials
+### Step 4: Save the Credentials
  
 After creation, you’ll see:
 - A **Client ID**
@@ -78,7 +57,7 @@ You can also click **"Download JSON"** to save them in a file.
  
 ---
  
-## Step 6: Use These in Microsoft Sentinel
+## Step 5: Use These in Microsoft Sentinel
  
 When connecting Google Cloud logs in Microsoft Sentinel:
 - Paste the **Client ID** and **Client Secret** you just created.
